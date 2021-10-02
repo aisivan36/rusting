@@ -1,14 +1,14 @@
 pub fn reference() {
-  println!("reference == ====== = == = =");
+    println!("reference == ====== = == = =");
 
-  let country = String::from("Australia");
-  let ref_one = &country;
-  let ref_two = &country;
-  println!("{}", ref_one);
-  println!("{}", ref_two);
+    let country = String::from("Australia");
+    let ref_one = &country;
+    let ref_two = &country;
+    println!("{}", ref_one);
+    println!("{}", ref_two);
 
-  // let theCountry = return_str();
-  // println!("{}", theCountry);
+    // let theCountry = return_str();
+    // println!("{}", theCountry);
 }
 
 // fn return_str() -> &str {

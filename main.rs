@@ -1,25 +1,35 @@
+#![warn(clippy::all, clippy::pedantic)]
 // use std::io;
-mod references;
+// mod references;
+
+mod user_capture;
 
 fn main() {
-   references::references();
+    user_capture::user_capture();
 
-   // println!("Guess the number!");
+    //  references::references();
 
-   // println!("Please input your guess.");
+    //  let mylist = ["one", "two", "three", "four", "five"];
+    //  for i in &mylist {
+    //      println!("{}", i);
+    //  }
 
-   // let mut guess = String::new();
+    // println!("Guess the number!");
 
-   // io::stdin()
-   //    .read_line(&mut guess)
-   //    .expect("Failed to read line");
+    // println!("Please input your guess.");
 
-   // let x = 13;
+    // let mut guess = String::new();
 
-   // let mut x = x + 12;
-   // println!("You guessed: {}", x);
+    // io::stdin()
+    //    .read_line(&mut guess)
+    //    .expect("Failed to read line");
 
-   // x += 12;
+    // let x = 13;
 
-   // println!("You guessed: {}", x);
+    // let mut x = x + 12;
+    // println!("You guessed: {}", x);
+
+    // x += 12;
+
+    // println!("You guessed: {}", x);
 }
