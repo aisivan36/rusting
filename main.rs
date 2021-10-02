@@ -1,8 +1,8 @@
 // use std::io;
-mod ownership;
+mod references;
 
 fn main() {
-   ownership::function();
+   references::references();
 
    // println!("Guess the number!");
 
