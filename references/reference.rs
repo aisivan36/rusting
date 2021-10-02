@@ -1,4 +1,6 @@
 pub fn reference() {
+  println!("reference == ====== = == = =");
+
   let country = String::from("Australia");
   let ref_one = &country;
   let ref_two = &country;
