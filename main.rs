@@ -1,6 +1,9 @@
 // use std::io;
+mod ownership;
 
 fn main() {
+   ownership::function();
+
    // println!("Guess the number!");
 
    // println!("Please input your guess.");
@@ -11,12 +14,12 @@ fn main() {
    //    .read_line(&mut guess)
    //    .expect("Failed to read line");
 
-   let x = 13;
+   // let x = 13;
 
-   let mut x = x + 12;
-   println!("You guessed: {}", x);
+   // let mut x = x + 12;
+   // println!("You guessed: {}", x);
 
-   x += 12;
+   // x += 12;
 
-   println!("You guessed: {}", x);
+   // println!("You guessed: {}", x);
 }

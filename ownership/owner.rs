@@ -1,1 +1,3 @@
-pub fn 
+pub fn owner() {
+  println!("what is up");
+}
